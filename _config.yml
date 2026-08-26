@@ -1,0 +1,17 @@
+title: "매일공부매니저 블로그"
+description: "중하위권 학생과 학부모를 위한 공부 방법, 학습 습관, 성적 관리 이야기"
+url: "https://blog.maegongmae.com"
+baseurl: ""
+lang: "ko-KR"
+timezone: "Asia/Seoul"
+
+markdown: kramdown
+permalink: /:title.html
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "진지환"
